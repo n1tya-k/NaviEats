@@ -1,0 +1,24 @@
+:root {
+    --m_green: #5C6F2B;
+    --m_orange: #DE802B;
+    --m_beige: #D8C9A7;
+    --m_white: #EEEEEE;
+    --m_brown: #5C4F4A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #111827;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
